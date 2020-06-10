@@ -23,7 +23,11 @@ public class AdapterLihatBarang extends
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {
-
+        /**
+         * Inisiasi View
+         * Disini kita hanya menggunakan data String untuk tiap item
+         * dan juga view nya hanyalah satu TextView
+         */
         TextView tvTitle;
 
         ViewHolder(View v) {
